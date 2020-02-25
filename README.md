@@ -1,0 +1,3 @@
+Create a copy of Google's homepage. Easy version just the homepage. Difficult version, do the search results page!! Both sound great. Going to use and get comfortable with GIT along the way. Using VSCode. When finished I will post to Codepen.  Started this yesterday 2/20/2020.
+
+Sidenote: Parker has been on vacation due to the Coronavirus. It's been hard to make the time and get into a schedule. He's going back to school next Tuesday!!
