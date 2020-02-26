@@ -2,14 +2,53 @@ body {
     background-color: white;
 }
 
+img {
+    max-width: 15%;
+    height: auto;
+}
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 
 .logo {
-    padding-top: 25%;
+    padding-top: 10%;
     padding-bottom: 2%;
+}
+
+.search {
+    padding-bottom: 2%;
+}
+
+input {
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 15px;
+    padding: 4px;
+    width: 35%;
+    
+}
+
+
+
+.button {
+    font-size: 10px;
+    color: rgb(124, 121, 121);
+    background-color: rgb(230, 227, 227);
+    border: none;
+    margin-right: 1%;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+
+.button:hover {
+    border: 1px solid rgb(148, 147, 147);
+    box-shadow: 1px 1px rgb(211, 209, 209);
+}
+
+
+
+a:hover {
+    text-decoration: underline;
 }
