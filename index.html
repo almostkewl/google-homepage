@@ -2,40 +2,58 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="main.css">
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google Homepage</title>
 </head>
 <body>
-    
     <nav>
-        <div class="nav-left">
-        <a href="#">About</a> 
-        <a href="#">Store</a>
-        </div> 
-        <div class="nav-right">
-        <a href="#">Gmail</a> |
-        <a href="#">Images</a>
-        <button type="submit">Sign in</button>
-        </div>
-        </nav>
-
+        <ul class="nav-left">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+              </ul>
+      <ul class="nav-right">
+        <li><a href="www.gmail.com">Gmail</a></li>
+        <li><a href="https://www.google.com.tw/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+        
+        <li><a href="#" title="apps"><i class="material-icons">
+            apps
+            </i></a>
+        </li>
+        <li><a href="www.gmail.com" title="gmail"><i class="material-icons">
+            account_circle
+            </i> </a></li>
+      </ul>
+      </nav>
 
     <div class="flex-container">
     <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
 
     <div class="flex-container search">
-    <input type="search" name="size" placeholder="Search..">
-    </div>
+      <!-- mag inside search-->
+      
+      
+      <a href="#" id="search-btn" title="search"><i class="material-icons">search</i></a>
+    <input type="text" class="searchbar-text" >
+    
+    
+    
+    
+    
+    
+    <a href="#" class="mic-btn" title="voice search"><i class="material-icons">mic</i></a></div>
+        
 
     <div class="flex-container">
     <button class="button">Google Search</button>
     <button class="button">I'm Feeling Lucky</button>
         </div>
         <footer>
+            <p>Canada</p>
             <ul class="footer-left">
                 <li><a href="default.asp">Advertising</a></li>
                 <li><a href="news.asp">Business</a></li>
