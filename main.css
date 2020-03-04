@@ -96,7 +96,9 @@ input:hover {
     margin-left: 0.5rem;
 }
   #mic {
-    margin-left: 22rem;
+    position: absolute;
+    margin-left: 33%;
+    
     
 }
     
